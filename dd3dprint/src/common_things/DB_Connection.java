@@ -25,9 +25,9 @@ public class DB_Connection {
 		System.out.println("Connection Called");
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			//connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/login?useSSL=false","root","scandium17");
-			connection=DriverManager.getConnection("jdbc:mysql://mysql3000.mochahost.com:3306/dipti11_login_project?useTimezone=true&serverTimezone=UTC","dipti11_login","scandium17");
-			//connection=DriverManager.getConnection("jdbc:mysql://mysql3000.mochahost.com:3306/dddprint_3d?useTimezone=true&serverTimezone=UTC","dddprint_login","scandium17");
+			//connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/login?useSSL=false","root","silicon17");
+			connection=DriverManager.getConnection("jdbc:mysql://mysql3000.mochahost.com:3306/dipti11_login_project?useTimezone=true&serverTimezone=UTC","dipti11_login","silicon17");
+			//connection=DriverManager.getConnection("jdbc:mysql://mysql3000.mochahost.com:3306/dddprint_3d?useTimezone=true&serverTimezone=UTC","dddprint_login","silicon17");
 			System.out.println("Connection successful");
 		}
 		
