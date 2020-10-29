@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+ 
+<title>mywebsite</title>
+
+<style>
+
+table{
+
+text-align: center;
+boder-color:lightgray;
+
+}
+</style>
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+
+
+<table border="1">
+
+<tr>
+
+<th> Cart Items </th>
+<th> Product Names </th>
+<th> Product Price </th>
+<th>  Product Quantity</th>
+</tr>
+
+<tr>
+<td> <img src="wca.jpg" alt=""></td>
+<td> wca item </td>
+<td> RS 250</td>
+<td>  3</td>
+
+
+</tr>
+
+
+
+<tr>
+<td> <img src="youtube.jpg" alt=""></td>
+<td> youtube item </td>
+<td> RS 140</td>
+<td> 2</td>
+
+
+</tr>
+
+
+</table>
+
+
+<form action="https://www.paypal.com/cgi=bin/websrc" method="post">
+
+
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="upload" value="1">
+<input type="hidden" name="personal" value="shamika1994@gmail.com">
+
+
+<input type="hidden" name="item_name_1" value="wca item">
+<input type="hidden" name="amount_1" value="250">
+<input type="hidden" name="quantity_1" value="3">
+
+<input type="hidden" name="item_name_2" value="youtube item">
+<input type="hidden" name="amount_2" value="140">
+<input type="hidden" name="quantity_2" value="2">
+<input type="submit" value="PayPal">
+
+
+
+
+
+</form>
+ 
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,3871 @@
+@CHARSET "ISO-8859-1";
+
+<style>
+
+
+
+    .common
+{
+	width:100%;
+	float: left;
+	background:white;
+	font-family:verdana;
+	font-size: 17px;
+	color:black;
+}
+
+
+
+    .ffs1start
+{
+
+
+   position: absolute;
+    top: 0.5%;
+    left:23%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+    .ffs1
+{
+
+
+   position: absolute;
+    top: 0.5%;
+    left:23%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .smartpack
+{
+
+
+   position: absolute;
+    top: 5.5%;
+    left:23%;
+  width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+    .weigher
+{
+
+
+   position: absolute;
+    top: 10.7%;
+    left:23%;
+    width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .midpan
+{
+
+
+   position: absolute;
+    top: 16%;
+    left:23%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+    .gusset
+{
+
+
+   position: absolute;
+    top: 21.7%;
+    left:23%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .inkjet
+{
+
+
+   position: absolute;
+    top: 26.7%;
+    left:23%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+
+    .ffs2
+{
+
+
+   position: absolute;
+    top: 0.5%;
+    left:55%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .table1
+{
+
+
+   position: absolute;
+    top: 30%;
+    left:0.5%;
+	width:25%;
+	border:solid 3px black;
+	padding: 6px;
+   text-align: center;	
+	
+	
+}
+
+
+
+
+    .table2
+{
+
+
+   position: absolute;
+    top: 15%;
+    left:35%;
+	width:50%;
+    height:60%;
+	border:solid 3px black;
+	padding: 5px;
+	 text-align: center;	
+	
+	
+}
+
+
+
+
+    .table3
+{
+
+
+   position: absolute;
+    top: 45%;
+    left:0.5%;
+	width:25%;
+   
+	border:solid 3px black;
+	padding: 5px;
+	 text-align: center;	
+	
+	
+}
+
+
+
+
+    .table4
+{
+
+
+   position: absolute;
+    top: 80%;
+    left:0.5%;
+	width:25%;
+   
+	border:solid 3px black;
+	padding: 5px;
+	 text-align: center;	
+	
+	
+}
+
+
+
+    .table5
+{
+
+
+   position: absolute;
+    top: 4%;
+    left:40%;
+	width:30%;
+   
+	border:solid 3px black;
+	padding: 5px;
+	 text-align: center;	
+	
+	
+}
+
+
+
+
+    .table6
+{
+
+
+   position: absolute;
+    top: 75%;
+    left:30%;
+	width:65%;
+    border:solid 4px black;
+	padding: 6px;
+	 text-align: center;	
+	
+	
+}
+
+
+
+
+    .table7
+{
+
+
+   position: absolute;
+    top: 87%;
+    left:30%;
+	width:66.5%;
+    border:solid 3px black;
+	padding: 5px;
+	 text-align: center;	
+	
+	
+}
+
+
+    .en1
+{
+
+
+   position: absolute;
+    top: 9%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .en2
+{
+
+
+   position: absolute;
+    top: 15.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .en3
+{
+
+
+   position: absolute;
+    top: 22%;
+   left:13%;
+   width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .en4
+{
+
+
+   position: absolute;
+    top: 28.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+    background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en5
+{
+
+
+   position: absolute;
+    top: 35%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en6
+{
+
+
+   position: absolute;
+    top: 41.5%;
+    left:13%;
+   width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .en7
+{
+
+
+   position: absolute;
+    top: 48%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .en8
+{
+
+
+   position: absolute;
+    top: 54.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .en9
+{
+
+
+   position: absolute;
+    top: 61%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .en10
+{
+
+
+   position: absolute;
+    top: 67.5%;
+   left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .en11
+{
+
+
+   position: absolute;
+    top: 74%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en12
+{
+
+
+   position: absolute;
+    top: 80.5%;
+     left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en13
+{
+
+
+   position: absolute;
+    top: 87%;
+   left:13%;
+   width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .en14
+{
+
+
+   position: absolute;
+    top: 93.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .ready1
+{
+
+
+   position: absolute;
+    top: 9%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .ready2
+{
+
+
+   position: absolute;
+    top: 15.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .ready3
+{
+
+
+   position: absolute;
+    top: 22%;
+   left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .ready4
+{
+
+
+   position: absolute;
+    top: 28.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .ready5
+{
+
+
+   position: absolute;
+    top: 35%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready6
+{
+
+
+   position: absolute;
+    top: 41.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .ready7
+{
+
+
+   position: absolute;
+    top: 48%;
+    left:73%;
+   width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready8
+{
+
+
+   position: absolute;
+    top: 54.5%;
+    left:73%;
+   width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .ready9
+{
+
+
+   position: absolute;
+    top: 61%;
+    left:73%;
+     width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	
+	color:white;
+}
+
+
+ .ready10
+{
+
+
+   position: absolute;
+    top: 67.5%;
+   left:73%;
+   width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .ready11
+{
+
+
+   position: absolute;
+    top: 74%;
+    left:73%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready12
+{
+
+
+   position: absolute;
+    top: 80.5%;
+     left:73%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready13
+{
+
+
+   position: absolute;
+    top: 87%;
+   left:73%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .ready14
+{
+
+
+   position: absolute;
+    top: 93.5%;
+    left:73%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .comb1
+{
+
+
+   position: absolute;
+    top: 9%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+
+    .comb2
+{
+
+
+   position: absolute;
+    top: 15.5%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .comb3
+{
+
+
+   position: absolute;
+    top: 22%;
+   left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .comb4
+{
+
+
+   position: absolute;
+    top: 28.5%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .comb5
+{
+
+
+   position: absolute;
+    top: 35%;
+    left:82.5%;
+    width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .comb6
+{
+
+
+   position: absolute;
+    top: 41.5%;
+     left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .comb7
+{
+
+
+   position: absolute;
+    top: 48%;
+     left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .comb8
+{
+
+
+   position: absolute;
+    top: 54.5%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+ .comb9
+{
+
+
+   position: absolute;
+    top: 61%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .comb10
+{
+
+
+   position: absolute;
+    top: 67.5%;
+   left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+ .comb11
+{
+
+
+   position: absolute;
+    top: 74%;
+     left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .comb12
+{
+
+
+   position: absolute;
+    top: 80.5%;
+     left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .comb13
+{
+
+
+   position: absolute;
+    top: 87%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .comb14
+{
+
+
+   position: absolute;
+    top: 93.5%;
+    left:82.5%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+.out1
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:1.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+.out2
+{
+
+    top: 64%;
+    left:5.5%; 
+   position: absolute;
+  
+    
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out3
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:9.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+	
+	
+	color:white;
+}
+
+
+
+.out4
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:13.5%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out5
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:17.4%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+   padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out6
+{
+
+
+    position: absolute;
+  
+    top: 64%;
+    left:21.4%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	color:white;
+}
+
+
+
+.out7
+{
+
+
+   position: absolute;
+   
+     top: 64%;
+    left:25.3%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out8
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:29.3%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+    background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out9
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:33.2%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out10
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:37.2%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out11
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:41%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out12
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:45%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out13
+{
+
+  position: absolute;
+    top: 64%;
+    left:49%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out14
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:52.8%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out15
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:56.9%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out16
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:60.6%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out17
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:64.5%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out18
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:68.5%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out19
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:72.5%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+.out20
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:76.5%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out21
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:80.5%; 
+	width:0.5%;
+	margin: 1px auto;
+    background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out22
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:84.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out23
+{
+
+
+    position: absolute;
+  
+     top: 64%;
+    left:88.5%;
+	width:0.5%;
+    margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out24
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:92.5%;
+       
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+
+
+.in1
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:1.2%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+.in2
+{
+
+    top: 64%;
+    left:4.7%; 
+   position: absolute;
+  
+    
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in3
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:8.1%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+	
+	
+	color:white;
+}
+
+
+
+.in4
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:11.6%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in5
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:15.1%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+   padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in6
+{
+
+
+    position: absolute;
+  
+    top: 64%;
+    left:18.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	color:white;
+}
+
+
+
+.in7
+{
+
+
+   position: absolute;
+   
+     top: 64%;
+    left:21.9%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in8
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:25.3%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in9
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:28.7%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in10
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:32.5%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in11
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:36.6%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in12
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:40.8%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in13
+{
+
+  position: absolute;
+    top: 64%;
+    left:45%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in14
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:49.2%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in15
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:53.5%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in16
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:57.9%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in17
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:62%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in18
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:66.4%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in19
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:70.6%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+.in20
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:74.8%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in21
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:79%; 
+	width:0.5%;
+	margin: 1px auto;
+    background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in22
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:83.3%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in23
+{
+
+
+    position: absolute;
+  
+     top: 64%;
+    left:87.5%;
+	width:0.5%;
+    margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in24
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:91.8%;
+       
+	width:0.5%;
+	margin: 1px auto;
+	background:white;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+
+    .ffs1on
+{
+
+
+   position: absolute;
+    top: 0.5%;
+    left:23%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+    .smartpackon
+{
+
+
+   position: absolute;
+    top: 5.5%;
+    left:23%;
+    width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+    .weigheron
+{
+
+
+   position: absolute;
+    top: 10.7%;
+    left:23%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+    .midpanon
+{
+
+
+   position: absolute;
+    top: 16%;
+    left:23%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+    .gusseton
+{
+
+
+   position: absolute;
+    top: 21.7%;
+    left:23%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .inkjeton
+{
+
+
+   position: absolute;
+    top: 26.7%;
+    left:23%;
+   width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+
+    .ffs2on
+{
+
+
+   position: absolute;
+    top: 0.5%;
+    left:55%;
+	 width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .en1on
+{
+
+
+   position: absolute;
+    top: 9%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .en2on
+{
+
+
+   position: absolute;
+    top: 15.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .en3on
+{
+
+
+   position: absolute;
+    top: 22%;
+   left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .en4on
+{
+
+
+   position: absolute;
+    top: 28.5%;
+    left:13%;
+    width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en5on
+{
+
+
+   position: absolute;
+    top: 35%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en6on
+{
+
+
+   position: absolute;
+    top: 41.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .en7on
+{
+
+
+   position: absolute;
+    top: 48%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en8on
+{
+
+
+   position: absolute;
+    top: 54.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .en9on
+{
+
+
+   position: absolute;
+    top: 61%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .en10on
+{
+
+
+   position: absolute;
+    top: 67.5%;
+   left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .en11on
+{
+
+
+   position: absolute;
+    top: 74%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .en12on
+{
+
+
+   position: absolute;
+    top: 80.5%;
+     left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .en13on
+{
+
+
+   position: absolute;
+    top: 87%;
+   left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .en14on
+{
+
+
+   position: absolute;
+    top: 93.5%;
+    left:13%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+ .ready1on
+{
+
+
+   position: absolute;
+    top: 9%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .ready2on
+{
+
+
+   position: absolute;
+    top: 15.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .ready3on
+{
+
+
+   position: absolute;
+    top: 22%;
+   left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .ready4on
+{
+
+
+   position: absolute;
+    top: 28.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready5on
+{
+
+
+   position: absolute;
+    top: 35%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready6on
+{
+
+
+   position: absolute;
+    top: 41.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .ready7on
+{
+
+
+   position: absolute;
+    top: 48%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready8on
+{
+
+
+   position: absolute;
+    top: 54.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .ready9on
+{
+
+
+   position: absolute;
+    top: 61%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+ .ready10on
+{
+
+
+   position: absolute;
+    top: 67.5%;
+   left:73%;
+    width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .ready11on
+{
+
+
+   position: absolute;
+    top: 74%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready12on
+{
+
+
+   position: absolute;
+    top: 80.5%;
+     left:73%;
+   width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .ready13on
+{
+
+
+   position: absolute;
+    top: 87%;
+   left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .ready14on
+{
+
+
+   position: absolute;
+    top: 93.5%;
+    left:73%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .comb1on
+{
+
+
+   position: absolute;
+    top: 9%;
+    left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+
+    .comb2on
+{
+
+
+   position: absolute;
+    top: 15.5%;
+    left:82.5%;
+    width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+    .comb3on
+{
+
+
+   position: absolute;
+    top: 22%;
+   left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+    .comb4on
+{
+
+
+   position: absolute;
+    top: 28.5%;
+    left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .comb5on
+{
+
+
+   position: absolute;
+    top: 35%;
+    left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .comb6on
+{
+
+
+   position: absolute;
+    top: 41.5%;
+     left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+ .comb7on
+{
+
+
+   position: absolute;
+    top: 48%;
+     left:82.5%;
+     width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .comb8on
+{
+
+
+   position: absolute;
+    top: 54.5%;
+    left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .comb9on
+{
+
+
+   position: absolute;
+    top: 61%;
+    left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .comb10on
+{
+
+
+   position: absolute;
+    top: 67.5%;
+   left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+ .comb11on
+{
+
+
+   position: absolute;
+    top: 74%;
+     left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+
+ .comb12on
+{
+
+
+   position: absolute;
+    top: 80.5%;
+     left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+ .comb13on
+{
+
+
+   position: absolute;
+    top: 87%;
+    left:82.5%;
+    width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+ .comb14on
+{
+
+
+   position: absolute;
+    top: 93.5%;
+    left:82.5%;
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+.out1on
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:1.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+.out2on
+{
+
+    top: 64%;
+    left:5.5%; 
+   position: absolute;
+  
+    
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out3on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:9.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+	
+	
+	color:white;
+}
+
+
+
+.out4on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:13.5%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out5on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:17.4%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+   padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out6on
+{
+
+
+    position: absolute;
+  
+    top: 64%;
+    left:21.4%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	color:white;
+}
+
+
+
+.out7on
+{
+
+
+   position: absolute;
+   
+     top: 64%;
+    left:25.3%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out8on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:29.3%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out9on
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:33.2%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out10on
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:37.2%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out11on
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:41%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out12on
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:45%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out13on
+{
+
+  position: absolute;
+    top: 64%;
+    left:49%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out14on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:52.8%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out15on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:56.9%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out16on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:60.6%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out17on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:64.5%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out18on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:68.5%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out19on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:72.5%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+.out20on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:76.5%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out21on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:80.5%; 
+	width:0.5%;
+	margin: 1px auto;
+    background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out22on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:84.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out23on
+{
+
+
+    position: absolute;
+  
+     top: 64%;
+    left:88.5%;
+	width:0.5%;
+    margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.out24on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:92.5%;
+       
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+
+.in1on
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:1.2%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	
+	color:white;
+}
+
+
+
+.in2on
+{
+
+    top: 64%;
+    left:4.7%; 
+   position: absolute;
+  
+    
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in3on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:8.1%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+	
+	
+	color:white;
+}
+
+
+
+.in4on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:11.6%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in5on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:15.1%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+   padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in6on
+{
+
+
+    position: absolute;
+  
+    top: 64%;
+    left:18.5%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	color:white;
+}
+
+
+
+.in7on
+{
+
+
+   position: absolute;
+   
+     top: 64%;
+    left:21.9%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in8on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:25.3%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in9on
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:28.7%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in10on
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:32.5%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in11on
+{
+
+
+  position: absolute;
+    top: 64%;
+    left:36.6%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in12on
+{
+
+
+   position: absolute;
+    top: 64%;
+    left:40.8%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in13on
+{
+
+  position: absolute;
+    top: 64%;
+    left:45%; 
+  
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in14on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:49.2%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in15on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:53.5%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in16on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:57.9%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in17on
+{
+
+
+    position: absolute;
+     top: 64%;
+    left:62%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in18on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:66.4%; 
+ 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in19on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:70.6%; 
+
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+.in20on
+{
+
+
+   position: absolute;
+     top: 64%;
+    left:74.8%; 
+   
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in21on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:79%; 
+	width:0.5%;
+	margin: 1px auto;
+    background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in22on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:83.3%; 
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in23on
+{
+
+
+    position: absolute;
+  
+     top: 64%;
+    left:87.5%;
+	width:0.5%;
+    margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+.in24on
+{
+
+
+    position: absolute;
+    top: 64%;
+    left:91.8%;
+       
+	width:0.5%;
+	margin: 1px auto;
+	background:green;
+	border:solid 3px black;
+	padding: 6px;
+	
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+.btn2
+{
+  position: absolute;
+  top: 0%;
+  left:90%;
+  background-color: red;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 8%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+
+
+
+
+
+</style>
+
+
